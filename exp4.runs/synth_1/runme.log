@@ -1,0 +1,342 @@
+
+*** Running vivado
+    with args -log divider_.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source divider_.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source divider_.tcl -notrace
+Command: synth_design -top divider_ -part xc7a75tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Device 21-403] Loading part xc7a75tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1448 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 978.480 ; gain = 233.867
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'divider_' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:371]
+WARNING: [Synth 8-567] referenced signal 'C' should be on the sensitivity list [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:385]
+INFO: [Synth 8-6157] synthesizing module 'abs' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:132]
+INFO: [Synth 8-6157] synthesizing module 'conv' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:35]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (1#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'conv' (2#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'abs' (3#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:132]
+INFO: [Synth 8-6157] synthesizing module 'al' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:240]
+INFO: [Synth 8-6155] done synthesizing module 'al' (4#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:240]
+INFO: [Synth 8-6157] synthesizing module 'ah' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:246]
+INFO: [Synth 8-6155] done synthesizing module 'ah' (5#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:246]
+INFO: [Synth 8-6157] synthesizing module 'attempt' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:164]
+INFO: [Synth 8-6157] synthesizing module 'subtractor' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'subtractor' (6#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:57]
+INFO: [Synth 8-6157] synthesizing module 'rsf' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'rsf' (7#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:126]
+INFO: [Synth 8-6157] synthesizing module 'lsf' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'lsf' (8#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'attempt' (9#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:164]
+INFO: [Synth 8-6157] synthesizing module 'sign7' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:252]
+INFO: [Synth 8-6155] done synthesizing module 'sign7' (10#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:252]
+INFO: [Synth 8-6157] synthesizing module 'signQ' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:264]
+INFO: [Synth 8-6157] synthesizing module 'subtractor8' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:95]
+INFO: [Synth 8-6155] done synthesizing module 'subtractor8' (11#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:95]
+WARNING: [Synth 8-689] width (8) of port connection 'S' does not match port width (15) of module 'subtractor8' [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:267]
+INFO: [Synth 8-6155] done synthesizing module 'signQ' (12#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:264]
+INFO: [Synth 8-6155] done synthesizing module 'divider_' (13#1) [D:/vivado_projects/exp4/exp4.srcs/sources_1/new/divider.v:371]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port S[14]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port S[13]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port S[12]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port S[11]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port S[10]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port S[9]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port S[8]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port A[14]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port A[13]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port A[12]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port A[11]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port A[10]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port A[9]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port A[8]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port B[14]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port B[13]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port B[12]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port B[11]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port B[10]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port B[9]
+WARNING: [Synth 8-3331] design subtractor8 has unconnected port B[8]
+WARNING: [Synth 8-3331] design lsf has unconnected port A[6]
+WARNING: [Synth 8-3331] design lsf has unconnected port A[0]
+WARNING: [Synth 8-3331] design rsf has unconnected port A[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1052.652 ; gain = 308.039
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1052.652 ; gain = 308.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1052.652 ; gain = 308.039
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1052.652 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado_projects/exp4/exp4.srcs/constrs_1/new/XDC-1.xdc]
+WARNING: [Vivado 12-507] No nets matched 'SET_IBUF'. [D:/vivado_projects/exp4/exp4.srcs/constrs_1/new/XDC-1.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/exp4/exp4.srcs/constrs_1/new/XDC-1.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'Q_OBUF[0]'. [D:/vivado_projects/exp4/exp4.srcs/constrs_1/new/XDC-1.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivado_projects/exp4/exp4.srcs/constrs_1/new/XDC-1.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/vivado_projects/exp4/exp4.srcs/constrs_1/new/XDC-1.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivado_projects/exp4/exp4.srcs/constrs_1/new/XDC-1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/divider__propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/divider__propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1144.480 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1144.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1144.480 ; gain = 399.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a75tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1144.480 ; gain = 399.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1144.480 ; gain = 399.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1144.480 ; gain = 399.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 275   
++---Registers : 
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module divider_ 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module full_adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 180 (col length:80)
+BRAMs: 210 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1144.480 ; gain = 399.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1144.480 ; gain = 399.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1144.480 ; gain = 399.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1149.641 ; gain = 405.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1165.414 ; gain = 420.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1165.414 ; gain = 420.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1165.414 ; gain = 420.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1165.414 ; gain = 420.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1165.414 ; gain = 420.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1165.414 ; gain = 420.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     2|
+|4     |LUT3 |     6|
+|5     |LUT4 |    15|
+|6     |LUT5 |    12|
+|7     |LUT6 |    39|
+|8     |FDRE |    17|
+|9     |IBUF |     9|
+|10    |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   110|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1165.414 ; gain = 420.801
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1165.414 ; gain = 328.973
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1165.414 ; gain = 420.801
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1177.473 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1177.473 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 28 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1177.473 ; gain = 740.113
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1177.473 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/vivado_projects/exp4/exp4.runs/synth_1/divider_.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file divider__utilization_synth.rpt -pb divider__utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 26 20:39:29 2024...

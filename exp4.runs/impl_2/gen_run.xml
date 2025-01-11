@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a35tcsg324-1" LaunchTime="1716727139">
+  <File Type="BITSTR-BMM" Name="divider__bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="divider__methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="divider__timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="divider__power_routed.rpt"/>
+  <File Type="PA-TCL" Name="divider_.tcl"/>
+  <File Type="OPT-TIMING" Name="divider__timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="divider__opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="divider__power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="divider__reports.tcl"/>
+  <File Type="OPT-DRC" Name="divider__drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="divider_.hwdef"/>
+  <File Type="PWROPT-DCP" Name="divider__pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="divider__drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="divider__timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="divider__placed.dcp"/>
+  <File Type="PLACE-IO" Name="divider__io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="divider__clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="divider__utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="divider__utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="divider__control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="divider__incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="divider__incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="divider__timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="divider__postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="divider_.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="divider__timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="divider__physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="divider__drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="divider_.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="divider__timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="divider__routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="divider__routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="divider__routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="divider__drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="divider__drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="divider__drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="divider_.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="divider__methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="divider__methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="divider__methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="divider__power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="divider__route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="divider__route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="divider__timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="divider__timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="divider__timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="divider__incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="divider__clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="divider__bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="divider__bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="divider__bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="divider__postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="divider__postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="divider__timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="divider__timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="divider__timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="divider__bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="divider__bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="divider_.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="divider__bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="divider_.rbt"/>
+  <File Type="BITSTR-NKY" Name="divider_.nky"/>
+  <File Type="PDI-FILE" Name="divider_.pdi"/>
+  <File Type="RCFI_FILE" Name="divider_.rcfi"/>
+  <File Type="CFI_FILE" Name="divider_.cfi"/>
+  <File Type="RNPI_FILE" Name="divider_.rnpi"/>
+  <File Type="NPI_FILE" Name="divider_.npi"/>
+  <File Type="RBD_FILE" Name="divider_.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="divider_.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="divider_.sysdef"/>
+  <File Type="BG-BGN" Name="divider_.bgn"/>
+  <File Type="BG-DRC" Name="divider_.drc"/>
+  <File Type="RDI-RDI" Name="divider_.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="divider_"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/XDC-1.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/XDC-1.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
